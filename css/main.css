@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;    
+}    
+
+body {
+  margin: 0;
+  font-family: Helvetica;  
+  background: rgb(17,76,76);  
+  text-align: center;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+/* Flex settings */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.item {
+    width: 40%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+/* Place the ONLINE status on the upper right-hand corner */
+.status {
+    text-align: right;
+    display: block;
+}
+
+
+.identity, .rate {
+    background-color: white;
+}
+
+.identity {
+    padding: 0.5em 0.5em 0 0;
+}
+
+#profile-pic {
+    border: 8px rgb(88,203,119) solid;
+    border-radius: 50%;
+}
+
+.job {
+    background-color: rgb(240,240,240);
+    padding-bottom: 1em;
+}
+
+/* Customize some of the font-awesome icons */
+
+.fa-phone-flip {
+    background-color: rgb(88,203,119);
+    color: white;
+    width: 50%;
+    padding-top: 0.25em;
+}
+
+.fa-comments {
+    background-color: rgb(76,179,104);
+    color: white;
+    width: 50%;
+    padding-top: 0.25em;
+}
+
+.fas {
+    color: rgb(209, 179, 46);
+}
+
+.fa-regular {
+    color: rgb(190, 190, 190);
+}
